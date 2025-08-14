@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(../css/font.css);
+@import url(font.css);
 
 /* 비주얼 */
 
@@ -34,6 +34,7 @@
 #visual .text_box p {
     font-size: 50px;
     color: #fff;
+    font-family: 'Pretendard-SemiBold';
 }
 
 /* 섹션1 */
@@ -81,6 +82,7 @@
 #section_box .section1 .text_box .title .tit_en {
     font-size: 24px;
     font-family: 'Pretendard-SemiBold';
+    color: #333;
 }
 
 #section_box .section1 .text_box .content_ko {

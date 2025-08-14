@@ -52,7 +52,7 @@ header nav .gnb li:before {
     content: "";
     position: absolute;
     width: 0px;
-    height: 2.5px;
+    height: 2.2px;
     background: #093E6D;
     opacity: 60%;
     left: 0;
