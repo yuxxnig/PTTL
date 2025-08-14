@@ -1,0 +1,95 @@
+@import url(font.css);
+@import url(reset.css);
+
+
+.centerbox {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* 헤더 */
+
+header .centerbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+header nav .gnb {
+    display: flex;
+    gap: 70px;
+}
+
+header nav .gnb li a {
+    font-size: 22px;
+    font-family: 'Pretendard-Medium';
+}
+
+header nav .gnb li a:hover {
+    color: #093E6D;
+    font-weight: bold;
+}
+
+header nav .gnb li {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+header nav .gnb li:before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 2.5px;
+    background: #093E6D;
+    opacity: 60%;
+    left: 0;
+    bottom: -10px;
+    transition: .5s;
+}
+
+header nav .gnb li:hover:before {
+    width: 100%;
+}
+
+header nav .gnb li.active a {
+    color: #093E6D;
+    font-weight: bold;
+}
+
+header nav .gnb li.active:before {
+    width: 100%;
+}
+
+/* 푸터 */
+
+footer {
+    margin-top: 150px;
+    width: 100%;
+    height: 250px;
+    background: #171F2A;
+    color: #fff;
+}
+
+footer .contact {
+    display: flex;
+    gap: 75px;
+    margin-bottom: 32px;
+    padding-top: 60px;
+}
+
+footer .address {
+    line-height: 30px;
+}
