@@ -1,0 +1,247 @@
+@charset "UTF-8";
+@import url(font.css);
+
+/* 비주얼 */
+
+#visual {
+    position: relative;
+    width: 100%;
+}
+
+#visual img {
+    width: 100%;
+    display: block;
+}
+
+#visual::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(7, 28, 56, 0.7);
+}
+
+#visual .text_box {
+    position: absolute;
+    width: 100%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#visual .text_box p {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Pretendard-SemiBold';
+}
+
+/* 섹션1 */
+
+#section_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section_box .section1 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 150px;
+}
+
+#section_box .section1 .members_tab {
+    background: #fff;
+    border: 1px solid #777;
+    width: 200px;
+    height: 30px;
+    font-size: 26px;
+    padding: 18px 17px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 30px 0 30px;
+}
+
+#section_box .section1 .members_tab a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: 'Pretendard-SemiBold';
+}
+
+#section_box .section1 .alumni_tab {
+    background: #fff;
+    border: 1px solid #777;
+    width: 200px;
+    height: 30px;
+    font-size: 26px;
+    padding: 18px 17px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 30px 0 30px;
+}
+
+#section_box .section1 .alumni_tab a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: 'Pretendard-SemiBold';
+}
+
+#section_box .section1 .members_tab:hover {
+    background: #071C38;
+    transition: .3s;
+}
+
+#section_box .section1 .members_tab:hover a {
+    color: #fff;
+}
+
+#section_box .section1 .alumni_tab:hover {
+    background: #071C38;
+    transition: .3s;
+}
+
+#section_box .section1 .alumni_tab:hover a {
+    color: #fff;
+}
+
+#section_box .section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 530px;
+    height: 80px;
+    background: #071C38;
+    margin-top: 100px;
+}
+
+#section_box .section2 p {
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Pretendard-semiBold';
+}
+
+#section_box .section3 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    background: #F2F6F9;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+#section_box .section3 .content {
+    display: flex;
+    justify-content: center;
+}
+
+#section_box .section3 .professor_card img {
+    width: 283px;
+    height: 377px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+#section_box .section3 .text_box .big_tit {
+    font-family: 'Pretendard-semiBold';
+    font-size: 26px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#section_box .section3 .text_box p {
+    font-size: 20px;
+    line-height: 150%;
+}
+
+/* 섹션4 */
+
+#section_box .section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 530px;
+    height: 80px;
+    background: #071C38;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+#section_box .section4 p {
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Pretendard-semiBold';
+}
+
+#section_box .section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#section_box .section5 .student_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F6F9;
+    width: 436px;
+    height: 563px;
+    margin: 0 auto;
+}
+
+#section_box .section5 img {
+    width: 190px;
+    height: 260px;
+}
+
+#section_box .section5 .name {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Pretendard-semiBold';
+    margin-top: 20px;
+}
+
+#section_box .section5 p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Pretendard-Medium';
+    margin-top: 20px;
+}
+
+/* 푸터 */
+
+footer {
+    margin-top: 150px;
+    width: 100%;
+    height: 250px;
+    background: #171F2A;
+    color: #fff;
+}
+
+footer .contact {
+    display: flex;
+    gap: 75px;
+    margin-bottom: 32px;
+    padding-top: 60px;
+}
+
+footer .address {
+    line-height: 30px;
+}
