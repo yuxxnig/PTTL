@@ -102,3 +102,8 @@
     align-items: center;
     margin-top: 90px;
 }
+
+#section_box .section1 .img_box img {
+    display: flex;
+    width: 1400px;
+}

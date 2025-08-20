@@ -148,42 +148,49 @@
 
 .section2 .centerbox .content_box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 80px;
 }
 
 .section2 .centerbox .content_box ul {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    padding: 0;
     margin: 0;
-    list-style: none;
 }
 
 .section2 .centerbox .content_box ul li {
     /* width: 500px; */
+    width: 420px;
     min-height: 300px;
     height: auto;
     border: 1px solid #777;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     box-sizing: border-box;
     padding: 30px;
+    align-items: flex-start;
 }
 
 .section2 .centerbox .content_box li h2 {
     font-size: 24px;
+    margin-bottom: 30px;
 }
 
 .section2 .centerbox .content_box li .tit {
     font-size: 18px;
+    bottom: 0;
+    margin-bottom: 40px;
 }
 
 .section2 .centerbox .content_box li .date {
     color: #777;
     font-size: 16px;
+    margin-top: auto;
 }
 
 /* 섹션3 */
