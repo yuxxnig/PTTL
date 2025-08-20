@@ -2,9 +2,14 @@
 @import url(reset.css);
 
 
+/* html {
+    scroll-behavior: smooth;
+} */
+
 .centerbox {
     max-width: 1400px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 /* 헤더 */
@@ -76,6 +81,14 @@ header nav .gnb li.active:before {
     width: 100%;
 }
 
+.scroll {
+    position: absolute;
+    right: 5vw;
+    top: 90vh;
+    z-index: 50;
+    display: none;
+}
+
 /* 푸터 */
 
 footer {
@@ -96,3 +109,4 @@ footer .contact {
 footer .address {
     line-height: 30px;
 }
+

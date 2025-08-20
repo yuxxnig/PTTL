@@ -58,16 +58,23 @@
     width: 125px;
 }
 
+/* 섹션2 */
+
 #section_box .section2 .map_box {
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
 
+/* 섹션3 */
+
+#section_box .section3 .centerbox {
+    max-width: 905px;
+}
+
 #section_box .section3 .contact {
     margin-top: 60px;
     display: flex;
-    justify-content: center;
     gap: 30px;
 }
 
@@ -84,29 +91,5 @@
 #section_box .section3 .address {
     margin-top: 30px;
     display: block;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     line-height: 25px;
-}
-
-/* 푸터 */
-
-footer {
-    margin-top: 150px;
-    width: 100%;
-    height: 250px;
-    background: #171F2A;
-    color: #fff;
-}
-
-footer .contact {
-    display: flex;
-    gap: 75px;
-    margin-bottom: 32px;
-    padding-top: 60px;
-}
-
-footer .address {
-    line-height: 30px;
 }
